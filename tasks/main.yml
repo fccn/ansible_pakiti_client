@@ -10,6 +10,6 @@
   when: pakiti_install
   tags: pakiti
 
-- include: push.yml
+- include_tasks: push.yml
   when: pakiti_push
   tags: pakiti
